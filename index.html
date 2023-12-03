@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncovering Inequity in Travel in Florida</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, h4, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Font and Color Scheme */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header and Navigation */
+        header {
+            background: #041004;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+/*
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+*/
+        footer {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .footer-left, .footer-right {
+            flex: 1;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-right {
+                text-align: center;
+            }
+        }
+
+        .team-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+
+        .team-member {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .team-member img {
+            width: 100px; /* Adjust as needed */
+            height: 100px; /* Adjust as needed */
+            border-radius: 50%; /* Circular images */
+            border: 2px solid #ddd;
+        }
+
+        .team-member p {
+            margin-top: 5px;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0;
+        }
+
+        .navbar li {
+            margin: 0 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Sections and Content */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .image-container img {
+            max-width: 46%;
+            margin: 10px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+
+        h1, h2, h4 {
+            padding: 10px 0;
+        }
+
+        h1 {
+            color: #f9faf9;
+            font-size: 2.5em;
+        }
+
+        h2, h4 {
+            color: #0275d8;
+        }
+
+        ul {
+            padding: 15px;
+            list-style-type: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: #0275d8;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            background: #5cb85c;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .navbar, .image-container {
+                flex-direction: column;
+            }
+
+            .navbar li, .image-container img {
+                margin: 10px 0;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Uncovering Inequity in Travel in Florida</h1>
+        <ul class="navbar">
+            <li><a href="#team">Team</a></li>
+            <li><a href="#summary">Project Summary</a></li>
+            <li><a href="#results">Results</a></li>            
+        </ul>
+    </header>
+
+    <div class="container" id="team">
+        <h2>Team Members</h2>
+        <ul>
+            <li>Nattakarn Surangsrirout</li>
+            <li>Wattana Laosinwattana</li>
+            <li>Subhash Gurappa</li>
+            <li>Ravi Chandra Mathi</li>
+        </ul>
+    </div>
+
+    <div class="container" id="summary">
+        <h2>Project Summary</h2>
+        <div class="image-container">
+            <img src="NHTS.PNG" alt="Key Finding 1">           
+        </div>
+      
+        <h4>Motivation:</h4>
+        <ul>
+            <li>Social Inequities in Transportation: Addressing disparities in travel behavior among different income groups.</li>
+            <li>Impact on Daily Life: The role of transportation in employment, education, healthcare, and social activities.</li>
+            <li>Importance of Analysis: Promoting social justice and equity through travel behavior analysis and transportation costs are the 2nd highest living costs and hit the low-income hardest.</li>
+        </ul>
+        <h4>Aims:</h4>
+        <ul>
+            <li>Equity and Social Justice: Addressing travel behavior disparities to promote social equity.</li>
+            <li>Temporal Trends: Analyzing income-based disparities over time using historical data.</li>
+            <li>Modes of Transportation: Investigating transportation modes used by different income groups.</li>
+            <li>Transportation Modes Used for Schools: Studying the impact of income levels on transportation choices for schools.</li>
+        </ul>
+    </div>
+
+    <div class="container" id="results">
+        <h2>Results</h2>
+        <div class="image-container">
+            <img src="Result 1.PNG" alt="Key Finding 1">
+            <!-- <img src="Result 2.PNG" alt="Key Finding 2"> -->
+        </div>
+        <ul>
+            <li>More car use with less financial burden in higher income, unlike lower income.</li>
+            <li>Work trip analysis shows low-income groups use cars as their top choice.</li>
+            <li>Low-income groups have to own cars due to Florida's urban sprawl geographic that making destinations inaccessible and insufficient public transport.</li>
+            <li>When school buses are available, needs of cars reduce for school trips.</li>
+            <h4>Suggestions:</h4>
+            <ul>
+                <li>Government Intervention: Enhance public transportation connectivity and coverage.</li>
+                <li>Solutions to First Mile/Last Mile Problems: Micro-Mobility (public bikes/e-scooters) and Go Connect (Miami-Dade's New Public Transit APP).</li>
+            </ul>
+        </ul>
+        <h2 style="text-align: center;">"A developed country is not a place where the poor have cars.</h2>
+        <h2 style="text-align: center;">It's where the rich use public transportation."</h2>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <p>Contact Us</p>
+            <p><strong>Email:</strong> sg001@fiu.edu</p>
+            <p><strong>Phone:</strong> +1 7866788943</p>
+            <!-- <p><strong>Address:</strong> 123 Research Lane, Orlando, FL 32801, USA</p> -->
+        </div>
+        <div class="footer-right">
+            <!-- Team Images Section -->
+            <div class="team-images">
+                <div class="team-member">
+                    <img src="Nat Photo.jpeg" alt="Nattakarn Surangsrirout">
+                    <p>Nattakarn</p>
+                </div>
+                <div class="team-member">
+                    <img src="Na Photo.jpeg" alt="Wattana Laosinwattana">
+                    <p>Wattana</p>
+                </div>
+                <div class="team-member">
+                    <img src="Subhash Photo.jpeg" alt="Subhash Gurappa">
+                    <p>Subhash</p>
+                </div>
+                <div class="team-member">
+                    <img src="Ravi Photo.jpeg" alt="Ravi Chandra Mathi">
+                    <p>Ravi</p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
